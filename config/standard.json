@@ -1,0 +1,47 @@
+{
+  "sizes": [
+    200,
+    500,
+    1000,
+    2000
+  ],
+  "seeds": [
+    41,
+    73,
+    107,
+    149,
+    181
+  ],
+  "profile_seed": 20261105,
+  "skill_dimensions": 30,
+  "job_share": 0.2,
+  "capacity_mean": 3.0,
+  "capacity_min": 1,
+  "capacity_max": 5,
+  "worker_noise": 0.12,
+  "candidate_threshold": 0.1,
+  "required_skills": 2,
+  "qualification_ratio": 0.45,
+  "hidden_dim": 64,
+  "attention_heads": 4,
+  "gnn_layers": 2,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "batch_size": 32,
+  "train_epochs": 200,
+  "training_pairs_per_epoch": 2048,
+  "spsa_steps": 200,
+  "spsa_directions": 10,
+  "spsa_delta": 0.0001,
+  "spsa_learning_rate": 1e-06,
+  "solver_time_limit": 3600,
+  "gurobi_time_limit": 3600,
+  "mip_gap": 1e-06,
+  "torch_threads": 2,
+  "split_ratio": [
+    7,
+    1,
+    2
+  ],
+  "utility_mode": "structural"
+}

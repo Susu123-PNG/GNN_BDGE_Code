@@ -1,0 +1,13 @@
+{
+  "official_onet_release": "31.0",
+  "onet_csv_download": "https://www.onetcenter.org/dl_files/database/db_31_0_csv.zip",
+  "official_esco_release": "1.2.1",
+  "esco_download_page": "https://esco.ec.europa.eu/en/use-esco/download",
+  "esco_onet_crosswalk": "https://esco.ec.europa.eu/system/files/2023-08/ONET_%28Occupations%29_0_updated.csv",
+  "required_for_official_mode": [
+    "essential_skills.csv",
+    "transferable_skills.csv"
+  ],
+  "official_archives_present_in_this_package": false,
+  "expert_verified_skill_crosswalk_present": false
+}
