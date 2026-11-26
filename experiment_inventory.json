@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-11-05T07:20:46.431845+00:00",
+  "completed_outputs": {
+    "executed_demo": "Five independent seeds for N=200 and N=500; two held-out markets per seed",
+    "non_graph_control": "Five seeds at N=200 with graph-independent reward values",
+    "robustness": "Five seeds at N=200 and five demand/capacity shifts",
+    "spsa_sensitivity": "Five seeds across six perturbation settings"
+  },
+  "input_profiles": "Programmatically generated occupational profiles; O*NET archive was not available to this runtime",
+  "gurobi_logs": "Not available: gurobipy is not installed and no Gurobi solves were executed",
+  "highs_backend": "SciPy linprog and milp using bundled HiGHS, with real execution timestamps",
+  "not_completed": [
+    "N=1000 full five-seed suite",
+    "N=2000 full five-seed suite",
+    "200-epoch / 200-step optimization",
+    "Official ESCO skill crosswalk validation"
+  ],
+  "fairness_metrics": "Not computed: no protected-group attribute labels were included",
+  "named_baseline_limitations": "Transport_Projection is an internal soft-allocation baseline, not a validated third-party implementation; X2GNN is not implemented",
+  "model_class": "capacitated bipartite matching, LP relaxation integral for this constraint structure",
+  "lp_mip_consistency_markets": 20,
+  "maximum_lp_mip_absolute_difference": 0.0,
+  "log_files": 55,
+  "open_solver_log_files": 0
+}

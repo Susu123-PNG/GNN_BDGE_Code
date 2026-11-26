@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-11-05T07:15:39.385593+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu_count": 5,
+  "cuda_available": false,
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0",
+  "torch_version": "2.10.0+cpu",
+  "highs_backend": "scipy.optimize.milp / scipy.optimize.linprog(method=highs)",
+  "gurobipy_installed": false,
+  "highspy_installed": false
+}
